@@ -1,0 +1,1370 @@
+1. Write an HTML code to display your CV on a web page.
+<!DOCTYPE html>
+<html lang="en"><html>
+<head>
+<title>RESUME RUPESH</title>
+</head>
+<body>
+<div id="resume">
+<h1>KARANAM RUPESH</h1>
+<h5>THATHICHATLAPALEM VIZAG</h2>
+<h5>VIZAG, PIN:530020.</h2>
+<h5>PHONE NUMBER:9391972679</h3>
+<h5>EMAIL:rupesh18083@gmail.COM</h3>
+<br />
+</div>
+<h2>Profile</h2>
+<p>
+I want to become a Datascientist.as i was much interested in analysis and visualising using python.
+</p>
+<br />
+<h2>Education</h2>
+<h3>schooling</h3>
+<ul>
+<li>
+KKR.GOWTHAM ,10th CGP -9.5
+</li>
+</ul>
+<h3>Intermediate</h3>
+
+<ul>
+<li>
+SREE KASHYAP ,12th CGP -8.86
+</li>
+</ul>
+<h3>Graduation- b.tech</h3>
+<ul>
+<li>
+CENTURION UNIVERSITY,CGP -8.88 SECOND SEM
+</li>
+</ul>
+<h3>Project</h3>
+<ul>
+<li>
+A minor project in python based on csv file.
+</li>
+<li>
+</li>
+visualisation and analysis of world development indicators such as elaectricity in
+rural ,urban,health expenditure per capita,gdp per capita in USD
+Dollars(DataScience).Automatic on and off lights by using ArduinoNanoR3.Presently on
+working on covid cases in all the different satates of India(covid dashboard).
+</ul>
+<h3>Skills</h3>
+<p>programming</p>
+<ul>
+<li> python
+</li>
+<li>
+c++
+</li>
+</ul>
+<p>other techinical skills</p>
+<ul>
+<li>
+blockchain techlogy
+</li>
+<li>
+AMAZON WEB SERVICES
+</li>
+</ul>
+<br />
+<h3>Hobbies and Interests</h3>
+<p>
+Watching movies,readingbooks,going to parties,attending workshops on aws and python
+course.
+<!-- THIS DIV CENTERS OUR LINKS -->
+<div id="bottom">
+<p>
+<a href="index.html">RESUME HOME</a> | <a href="#">SIMPLE RESUME</a> | <a href="resume.html">COMPLEX RESUME</a> | <a
+href="code.html" target="_blank">SEE HTML</a> | <a href="resume.css" target="_blank">SEE CSS</a>
+</p>
+</div>
+</div>
+</body>
+
+
+
+
+2. ML code to create a Home page having three links: About Us, Our Services and Contact Us. Create separate web pages for the three links.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Gargi's Page</title>
+</head>
+<body >
+<font size="8">
+<a href="http://localhost:63343/awp/p-2.1.html?_ijt=rotkftng5k2mkrp6hfk6sinm86">ABOUT US</a>
+<a href="http://localhost:63343/awp/P-2.2.html?_ijt=ut2tqfu2uduopr5ripb0ms7a2a">OUR SERVICES</a>
+<a href="http://localhost:63343/awp/P-2.3.html?_ijt=rqfej7lcs55ae9u0lvm91at6sv">CONTACT US</a>
+</font>
+</body>
+</html>
+
+2.1:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>AMOUNG US </title>
+</head>
+<body>
+<P>
+I AM AMOUNG US
+</P>
+</body>
+</html>
+
+2.2:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>OUR SERVICES</title>
+</head>
+<body>
+<P>
+OUR SERVICES ARE:
+</P>
+</body>
+</html>
+
+2.3:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CONTACT US</title>
+</head>
+<body>
+<p>
+CONTACT US ON:
+</p>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3. Write an HTML code to create a Registration Form. On submitting the form, the user should be asked to login with this new credentials.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>registration from</title>
+<script type="text/javascript" src="validate.js"></script>
+</head>
+<body>
+<form action="#" name="StudentRegistration" onsubmit="return(validate());">
+<table cellpadding="10" width="30%" bgcolor="#f4a460" align="center" cellspacing="3">
+<tr>
+<td colspan=4>
+<center><font size=4><b>Student Registration Form</b></font></center>
+</td>
+</tr>
+<tr>
+<td>Name</td>
+<td><input type=text name=textnames id="textname" size="40"></td>
+</tr>
+<tr>
+<td>Father Name</td>
+<td><input type="text" name="fathername" id="fathername" size="40"></td>
+</tr>
+<tr>
+<td>Postal Address</td>
+<td><input type="text" name="paddress" id="paddress" size="40"></td>
+</tr>
+<tr>
+<td>Personal Address</td>
+<td><input type="text" name="personaladdress" id="personaladdress" size="40"></td>
+</tr>
+<tr>
+<td>Sex</td>
+<td><input type="radio" name="sex" value="male" size="10">Male
+<input type="radio" name="sex" value="Female" size="10">Female</td>
+</tr>
+<tr>
+<td>City</td>
+<td><select name="City">
+<option value="-1" selected>select..</option>
+<option value="New Delhi">NEW DELHI</option>
+<option value="Mumbai">MUMBAI</option>
+<option value="Goa">GOA</option>
+<option value="Patna">PATNA</option>
+</select></td>
+</tr>
+<tr>
+<td>Course</td>
+<td><select name="Course">
+<option value="-1" selected>select..</option>
+<option value="B.Tech">B.TECH</option>
+
+<option value="MCA">MCA</option>
+<option value="MBA">MBA</option>
+<option value="BCA">BCA</option>
+</select></td>
+</tr>
+<tr>
+<td>District</td>
+<td><select name="District">
+<option value="-1" selected>select..</option>
+<option value="Nalanda">vizag</option>
+<option value="UP">vizayanagaram</option>
+<option value="Goa">srikakulam</option>
+<option value="krishna">PATNA</option>
+</select></td>
+</tr>
+<tr>
+<td>State</td>
+<td><select Name="State">
+<option value="-1" selected>select..</option>
+<option value="New Delhi">NEW DELHI</option>
+<option value="Mumbai">MUMBAI</option>
+<option value="Goa">GOA</option>
+<option value="Bihar">BIHAR</option>
+</select></td>
+</tr>
+<tr>
+<td>PinCode</td>
+<td><input type="text" name="pincode" id="pincode" size="40"></td>
+</tr>
+<tr>
+<td>EmailId</td>
+<td><input type="text" name="emailid" id="emailid" size="40"></td>
+</tr>
+<tr>
+<td>DOB</td>
+<td><input type="text" name="dob" id="dob" size="40"></td>
+</tr>
+<tr>
+<td>MobileNo</td>
+<td><input type="text" name="mobileno" id="mobileno" size="40"></td>
+</tr>
+<tr>
+<td><input type="reset"></td>
+<td colspan="3"><input type="submit" value="Submit Form" /></td>
+</tr>
+</table>
+</form>
+</body>
+</div>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4. Write an HTML code to create your Institute website, Department Website and Tutorial website for specific subject.
+
+<!doctype html>
+<html>
+<head>
+<title>Institute</title>
+</head>
+<body style="background-color:lavenderblush">
+<h1 style="color:red;text-align:center;width:75%;margin:30px 180px">CENTURION UNIVERSITY OF TECHNOLOGY AND MANAGEMENT</h1><br>
+<video width="1500" height="540" controls>
+<source src="https://cutmap.ac.in/wp- content/uploads/2020/06/Cutm_Ap_10M.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<img src="https://images.static- collegedunia.com/public/college_data/images/appImage/154287905026167730172974 2599720178441413093826490758n.jpg" alt="vizag" height=250px width="1200px" style="margin:30px 150px;"><br>
+
+<h2 style="color:blue;">OVERVIEW</h2>
+<hr>
+<p style="color:green;">From the inception, Centurion University’s DNA has been “Shaping lives and empowering communities”. The University has focused on ‘hands-on’, ‘experience based’, ‘practice oriented’ learning that makes a difference through appropriate and relevant innovation and action research. While promoting Nano, Mini and Micro Enterprises, the University works toward learning experiences that are ‘quantifiable’, ‘sustainable’, ‘scalable’ and ‘replicable’.</p>
+<img src="https://pbs.twimg.com/media/EbatFEgUYAAHS3b.jpg" alt="vizag campus" height=450px width="600px" style="margin:30px 425px;">
+<ol style="color:orange;">
+<li>Skill integrated, domain linked, teaching and learning</li>
+<li>Industry and community partnership</li>
+<li>Creating and co-creating enterprises</li>
+<li>An eco-system approach which includes community, enterprise, industry and educational institutes</li>
+</ol>
+<p style="color:green;">The University has five campuses and a number of social entrepreneurial outreach wings that, along with collaborating institutions and networks, form its ecosystem. The campuses are located at Paralakhemundi, Bhubaneswar, Rayagada, Bolangir and Balasore which house a number of Schools. They are: M. S. Swaminathan School of Agriculture, School of Allied Health Sciences and Paramedics, School of Architecture and Planning, School of Basic Sciences, School of Engineering and Technology, School of Management, School of Media and Communication, School of Pharmacy and Life Sciences, School of Vocational Education and Training and the Institute of Knowledge Societies.</p>
+<hr>
+<h2 style="color:blue">PLACEMENTS</h2>
+<h3 style="color:pink">Career Development Cell</h3>
+<hr>
+<p style="color:green;">Students are encouraged to seek opportunities and enhance their learning experience with practical knowledge. The Career Development Cell provides a platform for the students and the companies as well so that the collaboration is mutually beneficial.
+Once a student enters this University, the Institution takes the entire responsibility to develop that individual into a personality. The students are overwhelmed with the opportunities they are provided with. They are left open to umpteen number of choices lying in front of them to choose in parallel to their academics. Centurion believes in enhancing its students through dedicated concentration on each and every student and sees to that everyone enhances their talents with the opportunities they are provided with. Once the placement season commences, one can feel the vibrant environment on the campus. Talents go barely unrecognized at Centurion as we leave no stone unturned to place our students.
+Career Development Cell carries the twin responsibility of conducting Career Counseling and Training Programmes, and organizing the campus recruitment activities of the School. All students are encouraged to attend the training programs for an enhanced performance in the campus interviews. We hand hold our students through career guidance; through motivational activities and counseling, through knowledge sharing activities and through various capacity building measures. The trainees are closely monitored for improvements and gauged through several VST’s and company Mock tests, until they are ready and have gained eligibility.
+Programs like JAVA Certification in association with IBM , Network Certification in association with CISCO, DB2 training Certification in
+
+association with IBM and Campus Connect in association with Infosys are some of the achievements of the center.
+</p>
+<img src="https://pbs.twimg.com/media/DgNgszXUcAEVlbe.jpg" alt="vizag" height=250px width="1200px" style="margin:30px 150px;"><br>
+<a href="http://localhost:63342/awp/p- 4.1.html?_ijt=emrsph133qsn4dob2e8bvea4pu">Click here to visit CSE website</a>
+</body>
+</html>
+
+: CSE department:
+<!doctype html>
+<html>
+<head>
+<style>
+table, th, td {
+border: 1px solid black; border-collapse: collapse;
+}
+</style>
+<title>CSE Department</title>
+</head>
+<body style="background-color:pink">
+<h1 style="color:red;text-align:center;width:75%;margin:10px 180px">COMPUTER SCIENCE AND ENGINEERING</h1><br>
+<img src="https://blog-digital.aakash.ac.in/wp- content/uploads/2019/07/CSE.jpg" alt="cse" height=250px width="350px" style="margin:30px 550px;"><br>
+<h2 style="color:orange;">What is Computer Science Engineering?</h2>
+<p style="color:green;">One of the most sought after courses amongst engineering students, Computer Science Engineering (CSE) is an academic programme which integrates the field of Computer Engineering and Computer Science. The programme, which emphasises the basics of computer programming and networking, comprises a plethora of topics. The said topics are related to computation, algorithms, programming languages, program design, computer software, computer hardware, etc.
+
+Computer science engineers are involved in many aspects of computing, from the design of individual microprocessors, personal computers, and supercomputers to circuit designing and writing software that powers them.<br>The course is offered by technical institutes across India and Abroad at the UG (Undergraduate) and PG (Postgraduate) level where students are awarded BTech and MTech degree respectively. Students pursuing the course will be taught about design, implementation, and management of information system of computer hardware and software.
+
+</p>
+<table style="width:100%">
+<tr>
+<td>Analytical skills</td>
+<td>Problem-solving skills</td>
+</tr>
+<tr>
+<td>Critical thinking</td>
+<td>Creativity</td>
+</tr>
+<tr>
+
+<td>Good Programming Skills</td>
+<td>Strong Data Structures and Algorithms skills</td>
+</tr>
+<tr>
+<td>Basic web development knowledge</td>
+<td>Basics of Machine Learning</td>
+</tr>
+<tr>
+<td>Basics of security, vulnerabilities, and cryptography</td>
+<td>Ability to grasp the knowledge quickly</td>
+</tr>
+</table><br>
+<a href="http://localhost:63342/awp/p- 4.2.html?_ijt=o7n8ls7ap2r0ldpbmefo4rn51">click me to visit for html lists tutorial</a>
+</body>
+</html>
+
+: html lists:
+<!doctype html>
+<html>
+<head>
+<title>tutorial on HTML tags</title>
+</head>
+<body>
+<h1 style="color:red;text-align:center;width:75%;margin:10px 180px">HTML LISTS</h1><br>
+<h4>HTML lists allow web developers to group a set of related items in lists</h4>
+<img src="C:\Users\naveen\Pictures\Screenshots\Screenshot (41).png" alt="list" height=150px width="800px" style="margin:30px 300px;"><br>
+<h2 style="color:blue;">Ordered HTML List</h2><br>
+<p>An ordered list starts with the " ol " tag. Each list item starts with the " li " tag.<br><br>
+
+The list items will be marked with numbers by default:</p><br>
+<img src="C:\Users\naveen\Pictures\Screenshots\Screenshot (42).png" alt="list" height=150px width="800px" style="margin:30px 300px;"><br>
+<h2 style="color:blue;">HTML Description Lists</h2><br>
+<p>HTML also supports description lists.<br>
+A description list is a list of terms, with a description of each term.<br>
+The " dl " tag defines the description list, the " dt " tag defines the term (name), and the " dd " tag describes each term:<br>
+<img src="C:\Users\naveen\Pictures\Screenshots\Screenshot (43).png" alt="list" height=150px width="800px" style="margin:30px 300px;"><br>
+<h2 style="color:blue;">HTML List Tags</h2><br>
+<img src="C:\Users\naveen\Pictures\Screenshots\Screenshot (44).png" alt="list" height=250px width="800px" style="margin:30px 300px;"><br>
+</body>
+</html>
+
+
+
+
+5. Write an HTML code to create a frameset having header, navigation and content sections
+<html>
+<title>navigation</title>
+<FRAMESET   Rows    =   "20%,*" >
+<Frame  Src="head.html" title="head frame"  >
+<FRAMESET   Cols    =   "20%,*">
+<Frame  Src="navigation.html" title="navigation frame">
+<Frame  Src="content.html" title="content frame">
+</FRAMESET>
+</FRAMESET>
+</html>
+
+6. Write an HTML code to demonstrate the usage of inline CSS.
+<!doctype html>
+<html>
+<head>
+<title>inline function</title>
+</head>
+<body>
+<h1 style="color:brown;text-align:center;">Demonstration of inline function</h1>
+<p style="border:4px solid black ; color: blue;">Here style attribute in the "h1 and p" defines the inline function of the<br>
+html.In h1 tag we added brown color to the text and aligned the text to the center and in the p tag we added border to the <br>
+paragraph with 4px width and solid black </p>
+
+</body>
+</html>
+
+7. Write an HTML code to demonstrate the usage of internal CSS.
+<!doctype html>
+<html>
+<head>
+<title>internal css function</title>
+<style>
+body{background-color:yellow;} h1{color:red;}
+h1{text-align:center;} p{color:black;}
+</style>
+</head>
+<body>
+<h1>Demonstration of internal css</h1>
+<p>An internal CSS is used to define a style for a single HTML page.<br>
+
+An internal CSS is defined in the head section of an HTML page, within a style element.<br>
+
+The following example sets the text color of ALL the h1 elements (on that page) to red, and the text color of ALL the p elements to black. In addition, the page will be displayed with a "yellow" background color</p>
+</body>
+</html>
+
+
+8. Write an HTML code to demonstrate the usage of external CSS.
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="external.css">
+</head>
+<body>
+
+<h1 style="color: red">External CSS</h1>
+<p>An external style sheet is used to define the style for many HTML pages.<br>
+
+To use an external style sheet, add a link to it in the head section of each HTML page:</p>
+
+</body>
+</html>
+
+9. Design your own website using HTML CSS.
+<!doctype html>
+<html>
+<head>
+<title>Top 10 RECHIEST PROPLE</title>
+</head>
+<body style="background-color:lightyellow;">
+<h1 style="color:red;text-align:center;">TOP 10 RICHEST PEOPLE IN THE WORLD</h1>
+<p>The list of the world's richest persons can vary from year to year, depending on their latest net worth and financial performance. Here is the latest list of the world's top 10 richest persons, based on the real time Forbes list of October 06, and some interesting facts about each of them</p>
+<h2 style="color:blue;">10. Amancio Orteg</h2>
+<img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fimageio.forbes.com%2Fspecials-images%2Fimageserve%2F5c76b94131358e35dd27748e%2F0x0.jpg%3Fformat%3Djpg%26crop%3D2053%2C2053%2Cx179%2Cy216%2Csafe%26height%3D416%26width%3D416%26fit%3Dbounds&tbnid=EWSRlezvvkHTXM&vet=12ahUKEwik1snFyrz-AhUkS3wKHZymAwcQMygAegUIARDhAQ..i&imgrefurl=https%3A%2F%2Fwww.forbes.com%2Fprofile%2Famancio-ortega%2F&docid=8EHg1q3vzCJwWM&w=416&h=416&q=amancio%20ortega&ved=2ahUKEwik1snFyrz-AhUkS3wKHZymAwcQMygAegUIARDhAQ" width="700px" height="500px">
+<p style="color:green;">Noted as the richest person in Europe, Amancio Ortega is also the wealthiest clothing
+merchant in the world today. He co-founded Inditex, the firm that is popular for its Zara
+Fashion chain. He owns 60% stakes in Inditex that has 8 brands like Massimo Dutti and
+Pull & Bear, and runs 7,500 stores around the world. His net worth is
+67.3 Billion US$.</p>
+<h2 style="color:blue;">9. steve ballme</h2>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Steve_Ballmer_ 2014.jpg/220px-Steve_Ballmer_2014.jpg" width="600px" height="500px">
+<p style="color:green;"> As the former CEO of Microsoft, Steve Ballmer led the firm from 2000 to 2014. His able
+leadership during a very tough time steered Microsoft towards sustainability and
+progress. His net worth is $71.8 billion and in 2018 he invested $59 million in Social
+
+Solutions, a company that makes software for government agencies and non- profit
+organizations.</p>
+<h2 style="color:blue;">8. Larry Ellison</h2>
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/00/Larry_Ellison_pictur e.png"   width="600px" height="500px">
+<p style="color:green;">Larry Ellison has a net worth of $78.5 billion which he earned from Oracle, the software
+firm he cofounded in 1977. He quit as the CEO of the company in 2014 and since then he
+functions as the chairman of the board and chief technology advisor of the company.
+Ellison has also been on the board of Tesla since December 2018 after he purchased 3
+million shares earlier that year. He owns nearly all of Hawaiian island Lanai.</p>
+<h2 style="color:blue;">7. Warren Buffett</h2>
+<img src="https://s.marketwatch.com/public/resources/images/MW- DG483_BRKA_b_ZH_20150226170204.jpg" alt="Blue Jay" width="600px" height="500px">
+<p style="color:green;">Popularly known as the Oracle of Omaha, Warren Buffet is seen as one of the most
+successful investors of all times. He runs Berkshire Hathaway that owns over 60
+companies including the famous ones Geico insurance, Duracell, Dairy Queen
+Restaurant. His net worth is $80.3 billion. The son of a US congressman, he bought his
+first stock at the age of 11</p>
+<h2 style="color:blue;">6. Mukesh Ambani</h2>
+<img src="https://assets.sentinelassam.com/h-upload/2020/07/14/144236-mukesh- ambani.webp?w=400&dpr=2.6" alt="Atlantic PUFFIN" width="600px" height="500px">
+<p style="color:green;">The founder chairman of Reliance Industries, Mukesh Ambani has a net worth of $85.5
+billion. He runs the biggest oil and gas companies in India in addition to a very popular
+and influential telecom network in India. This year has been a busy one for Ambani, he
+has signed deals with Facebook and Google amongst other big firms.</p>
+<h2 style="color:blue;">5. Elon Musk</h2>
+<img src="https://albertomatus.com/wp-content/uploads/2016/07/elonmusk- tesla.jpg" width="600px" height="500px">
+<p style="color:green;">Elon Musk is working to revolutionize transportation both on Earth, through electric car
+maker Tesla - and in space, via rocket producer SpaceX. Elon Musk's rocket company is
+now valued at nearly $36 billion, currently his net worth is $89.3
+billion. Musk’s rocket
+company, SpaceX is now valued at nearly $36 billion. Tesla has become the
+world’s most
+valuable automaker with a market capitalisation of $342 billion.</p>
+<h2 style="color:blue;">4. Mark Zuckerberg</h2>
+<img src="https://babbletop.com/wp-content/uploads/2018/04/4.-Mark- Zuckerberg.jpg" width="600px" height="500px">
+<p style="color:green;">The co-founder, CEO and chairman of Facebook, Mark
+
+Zuckerberg champions the
+social network that has become a go-to communications avenue today. His net worth is
+$97.3 billion and today he owns about 15% stakes in Facebook after the firm went public
+in May 2012. Mark Zuckerberg is the youngest centibillionaire. His net worth zoomed
+past the $100 billion mark — all thanks to Instagram Reels — the alternative to TikTok
+which was banned in India earlier this year and is facing troubles in the US as well</p>
+<h2 style="color:blue;">3. Bill Gates</h2>
+<img src="https://content.thriveglobal.com/wp- content/uploads/2019/05/GettyImages-1057587356.jpg?w=1550" width="600px" height="500px">
+<p style="color:green;">The co-founder of Bill & Melinda Gates Foundation,
+Bill Gates has a net worth of $115.9
+billion. Having founded the software giant Microsoft along with Paul Allen, Bill Gates
+eventually sold away much of his stakes in the company retaining just 1% of the shares
+and investing the rest in stocks and other assets. Bill Gates entered the
+$100 billion club
+last year in April when Microsoft share price surged post-earnings. The Bill & Melinda
+Gates Foundation is the world’s largest private charitable
+foundation.</p>
+<h2 style="color:blue;">2. Bernard Arnault & Family</h2>
+<img src="https://blog.mirrorreview.com/wp-content/uploads/2019/07/Feature- Image.jpg" width="600px" height="500px">
+<p style="color:green;">LVMH – France Chairman and CEO Bernard Arnault ranks the second in the world in
+terms of riches. His net worth is $1116.6 billion ensuing from his business across an
+empire of more than 70 brands including Louis Vuitton and Sephora. French
+businessman and Europe’s richest man Bernard Arnault earned the $100
+billion fortune
+last year in December.</p>
+<h2 style="color:blue;">1. Jeff Bezos</h2>
+<img src="https://2uc5db1v032h5jwcm2gal07i-wpengine.netdna-ssl.com/wp- content/uploads/2018/07/JeffBezos_SecretstoSuccess-1-1024x682.jpg" width="600px" height="500px">
+<p style="color:green;">Amazon founder and CEO Jeff Bezos has a net worth of
+$188.3 billion and ranks as the
+richest person on the earth today. His position remains the same even after divorcing his
+wife MacKenzie in 2019 and transferring a quarter of his stake in Amazon to her. Bezos
+founded the behemoth Amazon in 1994 out of his garage in Seattle. The e- commerce
+giant has reaped the benefits of this coronavirus pandemic, with more number of people
+shopping online.
+</p>
+<hr>
+</body>
+</html>
+
+
+
+
+10. Design form using HTML and apply CCS.
+<!DOCTYPE html>
+<html>
+<style>
+input[type=text], select { width: 80%;
+padding: 14px 20px; margin: 8px 90px; display: inline-block; border: 1px solid #ccc; border-radius: 4px;
+box-sizing: border-box;
+}
+
+input[type=submit] { width: 50%;
+background-color:yellowgreen; color: white;
+padding: 14px 20px; margin: 8px 90px; border: none; border-radius: 4px; cursor: pointer;
+}
+
+input[type=submit]:hover { background-color: blue;
+}
+
+div {
+border-radius: 5px; background-color: #f2f2f2; padding: 8px 525px;
+}
+</style>
+<body>
+
+<h1 style="text-align:center;color:yellowgreen">Using CSS to style an HTML Form</h1>
+
+<div>
+<form>
+<label for="fname">First Name</label><br>
+<input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
+
+<label for="lname">Last Name</label><br>
+<input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+
+<label for="lname">Phone Number</label><br>
+<input type="text" id="phno" name="phone number" placeholder="Your
+
+phone number.."><br>
+
+<label for="lname">Address</label><br>
+<input type="text" id="add" name="address" placeholder="Your address.."><br>
+
+<label for="lname">State</label><br>
+<input type="text" id="state" name="state" placeholder="Your state.."><br>
+
+<label for="country">Country</label><br>
+<select id="country" name="country" active="India">
+<option value="australia">India</option>
+<option value="australia">Australia</option>
+<option value="canada">Canada</option>
+<option value="usa">USA</option>
+</select>
+
+<br><input type="submit" value="Submit">
+</form>
+</div>
+
+</body>
+</html>
+
+11. Write a Java script to prompt for users name and display it on the screen.
+<html>
+<head>
+<title>
+Greetings </title>
+</head>
+<body>
+<script>
+firstName = prompt("Please enter your name", "");
+document.write("Hello " +firstName + ", welcome to my Web page.");
+</script>
+<p> This is my web page... </p>
+</body>
+</html>
+
+12. Design HTML form for keeping student record and validate it using Java script.
+<html>
+<head>
+<script>
+function awp() { var name =
+document.forms["RegForm"]["Name"]; var email =
+document.forms["RegForm"]["EMail"]; var phone =
+document.forms["RegForm"]["Telephone"]; var what =
+document.forms["RegForm"]["Subject"]; var password =
+document.forms["RegForm"]["Password"]; var address =
+document.forms["RegForm"]["Address"];
+if (name.value == "") {
+window.alert("Please enter your name."); name.focus();
+return false;
+}
+if (address.value == "") {
+window.alert("Please enter your address."); address.focus();
+return false;
+}
+if (email.value == "") { window.alert(
+"Please enter a valid e-mail address."); email.focus();
+return false;
+}
+if (phone.value == "") { window.alert(
+"Please enter your telephone number."); phone.focus();
+return false;
+}
+if (password.value == "") { window.alert("Please enter your password"); 
+password.focus();
+return false;
+}
+if (what.selectedIndex < 1) { alert("Please enter your course."); what.focus();
+return false;
+}
+return true;
+}
+</script>
+<style >
+div {
+box-sizing: border-box; width: 100%;
+border: 100px solid black; float: left;
+align-content: center; align-items: center; color: blue;
+}
+form {
+margin: 0 auto; width: 600px; color: lightyellow;
+}
+</style>
+</head>
+<body>
+<h1 style="text-align: center; color: aqua">REGISTRATION FORM</h1>
+<form name="RegForm" action="/submit.php" onsubmit="return awp()" 
+method="post" >
+<p style="color: red">Name: <input type="text"
+size="65" name="Name" /></p>
+<br />
+<p style="color: red">Address: <input type="text"
+size="65" name="Address" />
+</p>
+<br />
+<p style="color: red">E-mail Address: <input type="text"
+size="65" name="EMail" /></p>
+<br />
+<p style="color: red">Password: <input type="text"
+size="65" name="Password" /></p>
+<br />
+<p style="color: red">Telephone: <input type="text"
+size="65" name="Telephone" /></p>
+<br />
+<p style="color: red"> SELECT YOUR COURSE
+<select type="text" value="" name="Subject">
+<option>BTECH</option>
+<option>BBA</option>
+<option>BCA</option>
+<option>B.COM</option>
+<option>GEEKFORGEEKS</option>
+</select>
+</p>
+<br />
+<br />
+<p>Comments: <textarea cols="55"
+name="Comment"> </textarea></p>
+<p style="color: red">
+<input type="submit"
+value="send" name="Submit" />
+<input type="reset"
+value="Reset" name="Reset" />
+</p>
+</form>
+</body>
+</html>
+
+13. Write programs using Java script for Web Page to display browsers information.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible"
+content="IE=edge">
+ <meta name="viewport" content="width=device-
+width, initial-scale=1.0">
+ <title>Document</title>
+ <script>
+ function show()
+ {
+ 
+document.writeln("<br/>navigator.appCodeName: "+navigator.appCodeName);
+document.writeln("<br/>navigator.appName: "+navigator.appName);
+document.writeln("<br/>navigator.appVersion: "+navigator.appVersion);
+document.writeln("<br/>navigator.cookieEnabled: "+navigator.cookieEnabled);
+document.writeln("<br/>navigator.language: "+navigator.language);
+document.writeln("<br/>navigator.userAgent: "+navigator.userAgent);
+document.writeln("<br/>navigator.platform: "+navigator.platform);
+document.writeln("<br/>navigator.onLine: "+navigator.onLine);
+}
+</script>
+</head>
+<body>
+ <form id="form1">
+ <div>
+ <input align="middle" id="Button1"
+type="button" value="Click me" onclick="show()" />
+</div>
+ </form>
+ 
+</body>
+</html>
+
+14. Validate form page using JavaScript
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <script> 
+ function validateform(){ 
+ var name=document.myform.name.value; 
+ var password=document.myform.password.value; 
+ 
+ if (name==null || name==""){ 
+ alert("Name can't be blank"); 
+ return false; 
+ }else if(password.length<6){ 
+ alert("Password must be at least 6 characters long."); 
+ return false; 
+ } 
+ } 
+ </script> 
+</head>
+<body>
+ <form name="myform" method="post" action="http://www.javatpoint.com/javascriptpages/valid.jsp" onsubmit="return 
+validateform()" > 
+ Name: <input type="text" name="name"><br/> 
+ Password: <input type="password" name="password"><br/> 
+ <input type="submit" value="register"> 
+ </form> 
+ 
+</body>
+</html>
+
+15. Use JQuery hide() effect in page.
+<!DOCTYPE html>  
+<html>  
+<head>  
+<script src="https://code.jquery.com/jquery-3.6.4.js"></script>  
+<script>  
+$(document).ready(function(){  
+    $("#hide").click(function(){  
+        $("p").hide();  
+    });  
+});  
+</script>  
+</head>  
+<body>  
+<p>  
+<b>This is a little poem: </b><br/>  
+Twinkle, twinkle, little star<br/>  
+How I wonder what you are<br/>  
+Up above the world so high<br/>  
+Like a diamond in the sky<br/>  
+Twinkle, twinkle little star<br/>  
+How I wonder what you are  
+</p>  
+<button id="hide">Hide</button>  
+</body>  
+</html>
+
+16. Write a jQuery Code to Find the data passed with the on() method for each element.
+
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://code.jquery.com/jquery-3.6.4.js"></script>
+<script>
+$(document).ready(function(){
+  $("p").on("click", function(){
+    alert("The paragraph was clicked.");
+  });
+});
+</script>
+</head>
+<body>
+
+<p>Click this paragraph.</p>
+
+</body>
+</html>
+
+17. Find the position of the mouse pointer relative to the left and top edges of the document.
+
+margin: 0;
+    }
+    html, body{
+        height:100%;
+    }
+</style>
+<script src="https://code.jquery.com/jquery-3.6.4.js"></script>
+<script>
+$(document).ready(function() {
+    $("body").mousemove(function(event){
+        var relPageCoords = "(" + event.pageX + "," + event.pageY + ")";
+        $(".mouse-cords").text(relPageCoords);
+    });
+});
+</script>
+</head>
+<body>
+    <p>Coordinates of mouse pointer with respect to the page are: <strong class="mouse-cords"></strong></p>
+</body>
+
+18. Count the number of milliseconds between the two click events on a paragraph
+<!DOCTYPE html>
+<html>
+<head>
+<script  src="https://code.jquery.com/jquery-3.6.4.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+ $("p").click(function(event){
+ $("span").text(event.timeStamp);
+ });
+});
+</script>
+</head>
+<body>
+<p>If you click on me, I will disappear.</p>
+<p>Click me away!</p>
+<p>Click me too!</p>
+<p>The click event occurred <span style="color:red">unknown</span> milliseconds</p>
+</body>
+</html>
+
+19. Find all the text nodes inside a paragraph and wrap them with an italic tag.
+
+<html>
+  <head>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.4.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+                
+              $("p").contents().not("[nodeType=1]").wrap("<i/>");
+                    
+
+        });
+    </script>
+  </head>
+  <body>
+    <body>
+        <p>Hello <a href="http://java2s.com/">java2s</a>asdf</p>
+
+          
+    </body>
+</html>
+
+20. Create an simple application using AJAX to show the table of numbers given by user at  runtime.
+
+20(html)
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Number Table</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+</script>
+    <script src="code-20.js"></script>
+</head>
+<body>
+    <h1>Number Table</h1>
+    <form id="number-form">
+    <label for="number-list">Enter a list of numbers, separated by commas:</label><br>
+        <input type="text" id="number-list" name="number-list"><br>
+        <input type="submit" value="Generate Table">
+    </form>
+    <div id="table-container"></div>
+</body>
+</html>
+
+20 (js)
+$(document).ready(function() {
+    $("#number-form").submit(function(event) {
+        event.preventDefault();
+        var numbers = $("#number-list").val();
+        $.ajax({
+            url: "code-20.php",
+            method: "POST",
+            data: { numbers: numbers },
+            success: function(result) {
+                $("#table-container").html(result);
+            }
+        });
+    });
+});
+
+
+
+20(php)
+<?php
+if (isset($_POST["numbers"])) {
+    $numbers = explode(",", $_POST["numbers"]);
+    $table = "<table>";
+    foreach ($numbers as $number) {
+        $table .= "<tr><td>" . $number . "</td><td>" . ($number * $number) . "</td></tr>";
+    }
+    $table .= "</table>";
+    echo $table;
+}
+?>
+
+
+
+21. Access web service using Ajax and handle using JSON.
+21(html)
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Service Example</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="code-21.js"></script>
+</head>
+<body>
+    <h1>Web Service Example</h1>
+    <button id="get-data">Get Data</button>
+    <div id="data-container"></div>
+</body>
+</html>
+
+
+21(js)
+$(document).ready(function() {
+    $("#get-data").click(function() {
+        $.ajax({
+            url: "https://jsonplaceholder.typicode.com/posts",
+            method: "GET",
+            dataType: "json",
+            success: function(result) {
+                var data = "";
+                $.each(result, function(index, post) {
+                    data += "<h2>" + post.title + "</h2><p>" + post.body + "</p>";
+                });
+                $("#data-container").html(data);
+            }
+        });
+    });
+});
+
+
+22. Create a responsive website using bootstap.
+
+22(html)
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+  background-color: #9933cc;
+  color: #ffffff;
+  padding: 15px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #33b5e5;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+
+.aside {
+  background-color: #33b5e5;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.footer {
+  background-color: #0099cc;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>CENTURION UNIVERSITY</h1>
+</div>
+
+<div class="row">
+  <div class="col-3 col-s-3 menu">
+    <ul>
+      <li>Domain Courses</li>
+      <li>Skill Courses</li>
+      <li>CSR Activities</li>
+      <li>Courseware</li>
+      <li>ERP</li>
+      
+    </ul>
+  </div>
+
+  <div class="col-6 col-s-9">
+    <h1>The CUTMAP</h1>
+    <p>CENTURION UNIVERSITY IS THE BEST PRIVATE UNIVERSITY IN VIZIANAGARAM.</p>
+  </div>
+
+  <div class="col-3 col-s-12">
+    <div class="aside">
+      <h2>What?</h2>
+      <p>CUTMAP IS A SKILLED UNIVERSITY.</p>
+      <h2>Where?</h2>
+      <p>IT IS LOCATED IN VIZIANAGARAM,ANDHRA PRADESH.</p>
+      <h2>How?</h2>
+      <p>YOU CAN REACH BY DIFFERENT WAYS.......</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Resize the browser window to see how the content respond to the resizing.</p>
+</div>
+
+</body>
+</html>
+
+23. Develop student registration web application using PHP.
+
+23(html)
+<!DOCTYPE html>
+<html >
+<head>
+<title>Registration Form</title>
+<style> input,textarea{width:200px}
+input[type=radio],input[type=checkbox]{width:10px} input[type=submit],input[type=reset]{width:100px}
+</style>
+</head>
+
+<body>
+    <h1>Student Registration Form </h1>
+<form method="post" enctype="multipart/form-data">
+<table width="393" border="1">
+<tr>
+<td colspan="2"><?php echo @$msg; ?></td>
+</tr>
+<tr>
+<td width="159">Enter your Name</td>
+<td width="218">
+<input type="text" placeholder="your first name" name="n" pattern="[a-z A- Z]*" required /></td>
+</tr>
+<tr>
+<td>Enter your Email</td>
+<td><input type="email" name="e"/></td>
+</tr>
+<tr>
+<td>Enter your Password</td>
+<td><input type="password" name="p"/></td>
+</tr>
+<tr>
+ 
+<td>Enter your Address</td>
+<td><textarea name="add"></textarea></td>
+</tr>
+<tr>
+<td>Enter your Mobile</td>
+<td><input type="text" pattern="[0-9]*" name="m" /></td>
+</tr>
+<tr>
+<td height="23">Select your Gender</td>
+<td>
+
+Male<input  type="radio" name="g" value="m"/> Female<input type="radio" name="g" value="f"/>
+</td>
+</tr>
+<tr>
+<td>Choose your Hobbies</td>
+<td>
+Cricket<input type="checkbox" value="cricket" name="hobb[]"/>
+Singing<input type="checkbox" value="singing" name="hobb[]"/>
+Dancing<input type="checkbox" value="dancing" name="hobb[]"/> 
+</td>       
+</tr>       
+<tr>        
+<td>Choose your Profile Pic </td>   
+
+</td>       
+</tr>       
+<tr>        
+<td>Choose your Profile Pic </td>   
+<td><input type="file" name="pic"/></td>
+</tr>
+<tr>
+<td>Select your DOB</td>
+<td>
+<select name="mm">
+<option value="">Month</option>
+<?php for($i=1;$i<=12;$i++)
+ 
+{
+echo "<option value='$i'>".$i."</option>";
+}
+?>
+</select>
+<select name="dd">
+<option value="">Date</option>
+<?php for($i=1;$i<=31;$i++)
+{
+echo "<option value='$i'>".$i."</option>";
+}
+?>
+</select>
+<select name="yy">
+<option value="">Year</option>
+<?php for($i=1900;$i<=2015;$i++)
+{
+echo "<option value='$i'>".$i."</option>";
+}
+?>
+
+
+23(php)
+<!DOCTYPE html>
+<html >
+<head>
+<title>Registration Form</title>
+<style> input,textarea{width:200px}
+input[type=radio],input[type=checkbox]{width:10px} input[type=submit],input[type=reset]{width:100px}
+</style>
+</head>
+
+<body>
+    <h1>Student Registration Form </h1>
+<form method="post" enctype="multipart/form-data">
+<table width="393" border="1">
+<tr>
+<td colspan="2"><?php echo @$msg; ?></td>
+</tr>
+<tr>
+<td width="159">Enter your Name</td>
+<td width="218">
+<input type="text" placeholder="your first name" name="n" pattern="[a-z A- Z]*" required /></td>
+</tr>
+<tr>
+<td>Enter your Email</td>
+<td><input type="email" name="e"/></td>
+</tr>
+<tr>
+<td>Enter your Password</td>
+<td><input type="password" name="p"/></td>
+</tr>
+<tr>
+ 
+<td>Enter your Address</td>
+<td><textarea name="add"></textarea></td>
+</tr>
+<tr>
+<td>Enter your Mobile</td>
+<td><input type="text" pattern="[0-9]*" name="m" /></td>
+</tr>
+<tr>
+<td height="23">Select your Gender</td>
+<td>
+
+Male<input  type="radio" name="g" value="m"/> Female<input type="radio" name="g" value="f"/>
+</td>
+</tr>
+<tr>
+<td>Choose your Hobbies</td>
+<td>
+Cricket<input type="checkbox" value="cricket" name="hobb[]"/>
+Singing<input type="checkbox" value="singing" name="hobb[]"/>
+Dancing<input type="checkbox" value="dancing" name="hobb[]"/> 
+</td>       
+</tr>       
+<tr>        
+<td>Choose your Profile Pic </td>   
+
+</td>       
+</tr>       
+<tr>        
+<td>Choose your Profile Pic </td>   
+<td><input type="file" name="pic"/></td>
+</tr>
+<tr>
+<td>Select your DOB</td>
+<td>
+<select name="mm">
+<option value="">Month</option>
+<?php for($i=1;$i<=12;$i++)
+ 
+{
+echo "<option value='$i'>".$i."</option>";
+}
+?>
+</select>
+<select name="dd">
+<option value="">Date</option>
+<?php for($i=1;$i<=31;$i++)
+{
+echo "<option value='$i'>".$i."</option>";
+}
+?>
+</select>
+<select name="yy">
+<option value="">Year</option>
+<?php for($i=1900;$i<=2015;$i++)
+{
+echo "<option value='$i'>".$i."</option>";
+}
+?>
+
+24. Setup Drupal server and develop a site on it
+
+Steps:
+Before a Drupal installation
+You need a web server with a database and PHP. The server could be your personal computer, or at an online web host.
+Step 1: Get the Code.
+Install the files you need to run Drupal. 
+Step 2: Install dependencies with composer
+If you installed or updated the codebase using git, then install required PHP libraries with composer.
+Step 3: Create a database
+Create a database for Drupal to use. 
+Step 4: Configure your installation
+Set up the web server and PHP to work together. 
+Step 5: Run the installer
+Run the installation script.
+Step 6: Status check
+Check the status of your site at Administration > Reports > Status report. Set trusted hosts patterns, create files directories.
+
+25. Creating XML Document
+<courses>
+<id>1</id>
+<subject>AWP</subject>
+<topics>HTML,CSS,JS,JSON,AJAX,PHP,MYSQL,DRUPAL,XML</topics>
+</courses>
