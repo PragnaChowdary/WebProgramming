@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourist Guide Website Design</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="02sree.css">
+</head>
+
+<body>
+
+    <header>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="#" class="logo"><span>B</span>on voyage</a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#book">book</a>
+            <a href="#packages">packages</a>
+            <a href="#services">services</a>
+            <a href="#gallery">gallery</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+
+
+    </header>
+
+    <div class="login-form-container">
+
+        <i class="fa-solid fa-xmark" id="form-close"></i>
+
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="enter your email">
+            <input type="password" class="box" placeholder="enter your password">
+            <input type="submit" value="login now" class="btn"><br>
+            <input type="checkbox" id="remember login details">
+            <label for="remember">remember me</label><br>
+            <br>
+            <p>forget password? <a href="#">click here</a></p>
+            <p>don't have an account? <a href="#">register now</a></p>
+        </form>
+
+    </div>
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>adventure is worthwhile</h3>
+            <p>discover new places with us, adventure awaits</p>
+            <a href="#" class="btn">Explore more</a>
+        </div>
+
+        <div class="controls">
+            <span class="vid-btn active" data-src="ocean video-1.mp4"></span>
+            <span class="vid-btn " data-src="desert video-3.mp4"></span>
+            <span class="vid-btn " data-src="snowy-trees video-4.mp4"></span>
+            <span class="vid-btn " data-src="waterfalll video-5.mp4"></span>
+            <span class="vid-btn " data-src="stars video-2.mp4"></span>
+        </div>
+
+        <div class="video-container">
+            <video src="ocean video-1.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+
+    </section>
+
+    <section class="book" id="book">
+        <h1 class="heading">
+            <span>b</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            <span class="space"></span>
+            <span>n</span>
+            <span>o</span>
+            <span>w</span>
+        </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="airfare.jpg" alt="">
+            </div>
+
+            <form action="">
+                <div class="inputBox">
+                    <h3>where to</h3>
+                    <input type="text" placeholder="place name">
+                </div>
+                <div class="inputBox">
+                    <h3>how many</h3>
+                    <input type="number" placeholder="number of guests">
+                </div>
+                <div class="inputBox">
+                    <h3>arrivals</h3>
+                    <input type="date">
+                </div>
+                <div class="inputBox">
+                    <h3>leaving</h3>
+                    <input type="date">
+                </div>
+                <input type="submit" class="btn" value="book now">
+            </form>
+
+        </div>
+
+    </section>
+
+    <section class="packages" id="packages">
+
+        <h1 class="heading">
+            <span>p</span>
+            <span>a</span>
+            <span>c</span>
+            <span>k</span>
+            <span>a</span>
+            <span>g</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="mumbai.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fa-solid fa-location-dot"></i> mumbai </h3>
+                    <p>Mumbai is famous for its iconic landmarks like the Gateway of India, Marine Drive, and the Taj
+                        Mahal Palace Hotel, as well as for its vibrant street food culture and its lively nightlife.</p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="price"> Rs 8,000.00 <span>Rs 10,000.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="sydney.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fa-solid fa-location-dot"></i> sydney </h3>
+                    <p> It is a vibrant and cosmopolitan city known for its stunning harbor, beautiful beaches, and
+                        iconic landmarks such as the Sydney Opera House and the Harbour Bridge.</p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="price"> Rs 14,000.00 <span>Rs 20,000.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="haweii.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fa-solid fa-location-dot"></i> haweii </h3>
+                    <p>Hawaii is also famous for its rich cultural heritage, including the ancient Hawaiian language,
+                        music, and dance. The islands are home to some of the world's most famous tourist destinations,
+                        such as Waikiki Beach, Pearl Harbor, and the Hawaii Volcanoes National Park.</p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="price">Rs 10,000.00 <span>Rs 12,000.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="paris.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fa-solid fa-location-dot"></i> paris </h3>
+                    <p>paris is one of the most iconic and romantic cities in the world, known for its beautiful
+                        architecture, museums, art galleries, and world-renowned cuisine. </p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="price"> Rs 15,000.00 <span>Rs 22,000.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="tokyo.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fa-solid fa-location-dot"></i> tokyo </h3>
+                    <p>The city is famous for its iconic landmarks, such as the Tokyo Tower, the Imperial Palace, and
+                        the Shibuya Crossing. Tokyo is also renowned for its world-class cuisine, ranging from
+                        traditional Japanese dishes to international flavors.</p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="price"> Rs 16,000.00 <span>Rs 20,000.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="egypt.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fa-solid fa-location-dot"></i> egypt </h3>
+                    <p> It is known for its rich history, ancient civilization, and iconic landmarks, such as the Great
+                        Pyramids of Giza, the Sphinx, and the Nile River. Egypt is home to some of the world's most
+                        famous archaeological sites, including the temples of Luxor and Karnak, the Valley of the Kings,
+                        and the Abu Simbel temples. </p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="price"> Rs 11,000.00 <span>Rs 14,000.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="services" id="services">
+        <h1 class="heading">
+            <span>s</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>c</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fa-solid fa-hotel"></i>
+                <h3>affordable hotels</h3>
+                <p>Clean and comfortable rooms, 24-hour front desk service to assist guests,24-hour front desk service
+                    to assist guests, Laundry facilities, Business center or meeting rooms for guests </p>
+            </div>
+
+            <div class="box">
+                <i class="fa-solid fa-utensils"></i>
+                <h3>food and drinks</h3>
+                <p> On-site restaurant or cafe: Some affordable hotels have an on-site restaurant or cafe where guests
+                    can enjoy a meal or snack.Vending machines: Some hotels have vending machines that offer snacks and
+                    drinks for guests who want a quick and easy option.
+
+                    Mini-fridge and microwave: Some hotels provide a mini-fridge and microwave in the room, which allows
+                    guests to store and prepare their own food and drinks. </p>
+            </div>
+
+            <div class="box">
+                <i class="fa-solid fa-bullhorn"></i>
+                <h3>safety guide</h3>
+                <p>security, emergency contacts, safe deposit box in guest rooms to store valuable items, Safety guide:
+                    Some affordable hotels provide guests with a safety guide that outlines important information about
+                    the hotel and the surrounding area, including emergency procedures, local laws, and potential
+                    hazards. </p>
+            </div>
+
+            <div class="box">
+                <i class="fa-solid fa-earth-asia"></i>
+                <h3>around the world</h3>
+                <p> we have 6 branches around the world: paris, tokyo, mumbai, sydney, haweii, egypt, with good feedback
+                    from customers and we have received many comliments from customers </p>
+            </div>
+
+            <div class="box">
+                <i class="fa-solid fa-plane"></i>
+                <h3> fastest travel</h3>
+                <p> The fastest mode of travel currently available to humans is air travel. Commercial airplanes can
+                    reach speeds of up to 600-700 miles per hour (965-1125 kilometers per hour), allowing passengers to
+                    travel long distances in a relatively short amount of time. </p>
+            </div>
+
+            <div class="box">
+                <i class="fa-solid fa-person-hiking"></i>
+                <h3>adventures</h3>
+                <p>hiking and camping, water sports, extreme sports, cultural experiences, road trips, etc.., Whether
+                    you prefer outdoor activities, extreme sports, cultural experiences, or something else entirely,
+                    there is sure to be an adventure out there that is perfect for you. </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="gallery" id="gallery">
+        <h3 class="heading">
+            <span>g</span>
+            <span>a</span>
+            <span>l</span>
+            <span>l</span>
+            <span>e</span>
+            <span>r</span>
+            <span>y</span>
+        </h3>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="gallery 1.jpg" alt="">
+                <div class="content">
+                    <h3>devotional place</h3>
+                    <p> locations that hold spiritual or religious significance and attract visitors who wish to pay
+                        their respects or seek spiritual enlightenment.</p>
+                    <a href="#" class="btn">see more..</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="gallery 2.jpg" alt="">
+                <div class="content">
+                    <h3>devotional place</h3>
+                    <p> locations that hold spiritual or religious significance and attract visitors who wish to pay
+                        their respects or seek spiritual enlightenment.</p>
+                    <a href="#" class="btn">see more..</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="gallery 3.jpg" alt="">
+                <div class="content">
+                    <h3>devotional place</h3>
+                    <p> locations that hold spiritual or religious significance and attract visitors who wish to pay
+                        their respects or seek spiritual enlightenment.</p>
+                    <a href="#" class="btn">see more..</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="gallery 4.jpg" alt="">
+                <div class="content">
+                    <h3>devotional place</h3>
+                    <p>locations that hold spiritual or religious significance and attract visitors who wish to pay
+                        their respects or seek spiritual enlightenment.</p>
+                    <a href="#" class="btn">see more..</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="gallery 5.jpg" alt="">
+                <div class="content">
+                    <h3>devotional place</h3>
+                    <p>locations that hold spiritual or religious significance and attract visitors who wish to pay
+                        their respects or seek spiritual enlightenment.</p>
+                    <a href="#" class="btn">see more..</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="gallery 6.jpg" alt="">
+                <div class="content">
+                    <h3>devotional place</h3>
+                    <p>locations that hold spiritual or religious significance and attract visitors who wish to pay
+                        their respects or seek spiritual enlightenment.</p>
+                    <a href="#" class="btn">see more..</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="gallery 7.jpg" alt="">
+                <div class="content">
+                    <h3>devotional place</h3>
+                    <p>locations that hold spiritual or religious significance and attract visitors who wish to pay
+                        their respects or seek spiritual enlightenment.</p>
+                    <a href="#" class="btn">see more..</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="gallery 8.jpg" alt="">
+                <div class="content">
+                    <h3>devotional place</h3>
+                    <p>locations that hold spiritual or religious significance and attract visitors who wish to pay
+                        their respects or seek spiritual enlightenment.</p>
+                    <a href="#" class="btn">see more..</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="review" id="review">
+
+        <h3 class="heading">
+            <span>r</span>
+            <span>e</span>
+            <span>v</span>
+            <span>i</span>
+            <span>e</span>
+            <span>w</span>
+        </h3>
+
+        <div class="swiper-container review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="job1.jpg" alt="">
+                        <h3>Jennie</h3>
+                        <p>Tourist guides can also help visitors navigate a new place, providing transportation,
+                            translating language barriers, and ensuring that visitors have a safe and enjoyable
+                            experience. In addition, a tourist guide can often provide a more personalized experience,
+                            tailoring their recommendations and guidance to the specific interests and needs of each
+                            traveler.</p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="job3.jpg" alt="">
+                        <h3>nick</h3>
+                        <p>Another amazing holiday arranged by Travel Online. This is our 7th time using this great team
+                            and every time every detail has been arranged without a hiccup. We will be booking again
+                        </p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="job2.jpg" alt="">
+                        <h3>Lisa</h3>
+                        <p>When choosing a tourist guide service, it's important to do your research and read reviews
+                            from other travelers to ensure that the service is reputable and provides high-quality
+                            guidance. and i have experienced the best.</p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="job4.jpg" alt="">
+                        <h3>Jack</h3>
+                        <p>it's important to communicate your preferences and needs to your guide to ensure that they
+                            can provide the best possible experience for you.</p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="job5.jpg" alt="">
+                        <h3>mary</h3>
+                        <p>A good tourist guide can provide valuable information about a destination, including
+                            historical and cultural context, insider tips, and recommendations for activities,
+                            attractions, and local food and they reached ourexpectations.</p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="job6.jpg" alt="">
+                        <h3>kevin</h3>
+                        <p>professional services provided by trained and licensed individuals who are knowledgeable
+                            about a specific destination or region was taken.</p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <h3 class="heading">
+        
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+        <span>u</span>
+        <span>s</span>
+    </h3>
+
+    <section class="contact" id="contact">
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115348.31815136687!2d68.28450457850833!3d25.38354855142485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x394c70f6d444f3c3%3A0xc00bbc183d41e285!2sHyderabad%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2sin!4v1682788015085!5m2!1sen!2sin"
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <div class="row">
+            <div class="contact-info">
+                <div class="box">
+                    <h3><i class="fa-solid fa-house"></i> TeachMediaForm </h3>
+                </div>
+                <div class="box">
+                    <h3><i class="fa-sharp fa-solid fa-phone-volume"></i> phone </h3>
+                    <p> +91 7981433235</p>
+                </div>
+                <div class="box">
+                    <h3><i class="fa-regular fa-envelope"></i> email </h3>
+                    <p>pragnaachowdary@gmail.com</p>
+                </div>
+                <div class="box">
+                    <h3><i class="fa-solid fa-house"></i> address </h3>
+                    <p>Vizianagaram,<br>
+                        2-60</p>
+                </div>
+            </div>
+
+            <div style="padding-left: 20px;" class="contact-form-container">
+                <form action="">
+                    <h3>Your Feedback</h3>
+                    <div class="inputBox">
+                        <input type="text" placeholder="full name">
+                        <input type="text" placeholder="Email">
+                    </div>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="message"></textarea>
+                    <input type="submit" value="submit">
+                </form>
+            </div>
+        </div>
+        
+    </section>
+
+    <section class="brand-container">
+        <div class="brand-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="img1.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img2.png" alt=""></div>
+                <div class="swiper-slide"><img src="img3.png" alt=""></div>
+                <div class="swiper-slide"><img src="img4.png" alt=""></div>
+                <div class="swiper-slide"><img src="img5.png" alt=""></div>
+                <div class="swiper-slide"><img src="img6.png" alt=""></div>
+                <div class="swiper-slide"><img src="img7.png" alt=""></div>
+                <div class="swiper-slide"><img src="img9.png" alt=""></div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>about us</h3>
+                <p>We are a professional tourist guide service,dedicated to provide high-quality guidance and support to
+                    travelers helping them to discover the best of each destination and make the most of their
+                    travel experiencesmain branch is at Vizianagaram, Andhrapradesh.
+                </p>
+            </div>
+
+            <div class="box">
+                <h3>branch locations</h3>
+                <a href="#">india</a>
+                <a href="#">USA</a>
+                <a href="#">japan</a>
+                <a href="#">france</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#">book</a>
+                <a href="#">packages</a>
+                <a href="#">services</a>
+                <a href="#">gallery</a>
+                <a href="#">review</a>
+                <a href="#">contact</a>
+            </div>
+
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">facebook</a>
+                <a href="#">instagram</a>
+                <a href="#">twitter</a>
+                <a href="#">linkedin</a>
+            </div>
+
+        </div>
+
+        <h1 class="credit"> created by <span> pragna chowdary </span> all rights reserved! </h1>
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="03sree.js"></script>
+
+</body>
+
+</html>
