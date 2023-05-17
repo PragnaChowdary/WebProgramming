@@ -1,0 +1,481 @@
+ADVANCED INTELLIGENT TOURIST GUIDE
+
+1. INTODUCTION
+1.1 Purpose
+The purpose of the Advanced Tourism  website is to provide a better platform to the tourists across the globe. The website should include features such as tourism booking, virtual display of places,information of tourist places and famous monuments across the globe. The website should also provide a user-friendly interface for tourists  and instructors to access and manage their accounts. The ultimate goal of the website is to provide a quality information about tourism places and ticket booking is made accessed easy.
+
+1.2 Scope
+This software system will be an advanced tourist website for users. It provides the communication between website and users. More specially to design and develop a easy interface between them. It helps to find their local and as per their required places. It is most required for those who wants to find their trip intelligently and efficiently. It also helps to them who want their trip effortless.
+
+1.3	Definition, Acronyms and Abbreviations
+1.3.1 Tourism website 
+Tourism website  means it a software meant to help different type of people to find their desire places  which are available in the website . It helps in guiding the people.
+1.3.2Administrator
+Course administrator is a user who can control the entire website. He can modify the website or change the movements of the website .
+
+1.3.3User
+An user means who want to access information on tourism website. He can only access information and book tickets but cannot save changes to the website
+
+
+1.3.4Portal
+  An portal is the main page in the website. Here we can see and access the information and book tickets.
+. 
+1.4 References
+1.	Tripadvisor.com
+2.	Gettyourguide.com
+3.	Chat Gpt for queries
+
+1.5 Overview
+People are spending so much time in searching for the routes and addresses of the places they want to wonder . For searching routes and addresses google maps are being used but it doesn’t giving the reliable output some times it showing more routes and confuses the people and sometimes because of bad signals the guidance looses suddenly to avoid this type of problems for the people who wants wonder the world we designed website called advanced intelligent tourist guide , Using this website tourists can easily find there destination without any inconvenience and can share their prefernces about the trip.
+2. Over All Description
+   2.1 Product Perspective
+
+My advanced tourism website  meet  to provide a interface for those who want to make trip easier and effortless.
+
+2.1.1	System Interface
+. The user inputs data via the web server using HTML forms. The actual program that will perform the operations is written in HTML and CSS
+
+2.1.2	User interface
+The new system shall provide a very intuitive and simple interface to the users, so that the user can easily navigate through the website
+2.1.3	Hardware Interface
+a)	Server side
+The web application will be hosted on a web server which is listening on the web standard port, port 80.
+b)	Client side
+Monitor screen – the software shall display information to the user via the monitor screen Mouse – the software shall interact with the movement of the mouse and the mouse buttons. The mouse shall activate areas for data input, command buttons and select options from menus.
+Keyboard – the software shall interact with the keystrokes of the keyboard.       The  keyboard will input data into the active area of the data.
+
+2.1.4	Software Interface
+a)	Server side
+An  web server will accept all requests from the client and forward it accordingly. A database will be hosted centrally using MySQL.
+b)	Client side
+An OS which is capable of running a modern web browser which supports JavaScript and HTML5.
+
+2.1.5	Communication Interfaces
+The HTTP or HTTPS protocol(s) will be used to facilitate communication between the client and server.
+2.1.6	Memory Constraints
+Memory constraints will come into play when the size of MySQL grows to a considerable size.
+2.1.7	Operations
+The product shall have operations to protect the database from being corrupted or accidentally altered during a system failure.
+
+2.1.8	Site Adaption Requirements
+Not applicable
+
+2.1.7 Operations
+User interface design: Designing an intuitive and user-friendly interface that provides easy access to information and interactive features is crucial to the success of an intelligent tourist guide. This operation involves designing the layout, navigation, and visual elements of the interface.
+2.1.8 Site Adaption Requirements
+Not applicable.
+
+2.2	Product Function
+2.2.1 Context Diagram
+                                   
+Figure1: Context Diagram
+
+
+         
+ 
+
+2.2.2 User Case Diagram
+2.2.2.1 User Login
+  
+
+2.2.2.2 Discussion Thread 
+  
+   
+
+2.2.2.3 Content Sharing (file upload/ Old paper sharing)
+
+ 
+
+2.2.2.4 Search
+
+ 
+2.2.2.5 Blogging
+
+ 
+
+2.2.2.6 Notification
+ 
+
+
+
+
+
+2.2.2.7 Survey
+ 
+
+2.2.2.8 Common Links
+
+
+ 2.2.3 Use Case Description
+2.2.3.1 Groups
+groups typically refer to the  collections of individuals who are working together towards a common goal or purpose. 
+User group: This group would represent the end-users of the system, such as tourists, travel agents, or tour guides. They would provide feedback on the usability and functionality of the system and help identify any areas for improvement.
+Development group: This group would be responsible for designing and building the software and hardware components of the system, including the user interface, database, and communication interfaces.
+Testing group: This group would be responsible for testing the system to ensure that it meets the required specifications and functionality. They would also identify and report any bugs or issues that need to be fixed.
+Content providers: This group would be responsible for providing the content that is displayed on the system, such as information about tourist attractions, events, and accommodations.
+Maintenance group: This group would be responsible for maintaining the system after it has been deployed, including updating software, fixing bugs, and addressing any issues that arise.
+Management group: This group would oversee the overall development and implementation of the system, including coordinating the activities of the other groups and ensuring that the project stays on schedule and within budget.
+
+2.3.2 Discussion Threads
+A discussion thread is a series of messages or posts that are related to a specific topic or theme. Discussion threads can be found on various online platforms, such as social media sites, forums, and messaging apps.
+Technical discussions: The development team could create discussion threads to discuss technical issues related to the design, development, and testing of the system. This could include topics such as software architecture, database design, and user interface design.
+User feedback: The user group could create discussion threads to provide feedback on the usability and functionality of the system. This could include suggestions for new features or improvements to existing ones, as well as feedback on the overall user experience.
+Content sharing: The content providers could create discussion threads to share information and resources related to the tourist attractions, events, and accommodations that are featured on the system. This could include links to relevant websites, photos, and other multimedia content.
+Project management: The management team could create discussion threads to discuss project timelines, milestones, and budget issues. This could help to ensure that the project stays on track and that any issues or delays are addressed in a timely manner.
+Troubleshooting: If issues or problems arise with the system after it has been deployed, discussion threads could be used to troubleshoot and diagnose the problem. This could involve sharing error messages, log files, and other diagnostic information to help identify the root cause of the issue.
+2.2.3.3 Messaging
+Messaging is an important aspect of any communication system.Messaging can be used to facilitate communication and collaboration among the different groups.
+Personal messaging: Users could send private messages to each other through the system. This could be used to ask questions, provide feedback, or share information about tourist attractions or events.
+Group messaging: Messaging could also be used to facilitate communication within groups. For example, the development team could use group messaging to discuss technical issues related to the system, while the content providers could use group messaging to coordinate the sharing of multimedia content.
+Broadcast messaging: Messaging could also be used to send broadcast messages to all users of the system. This could be used to announce new features, system updates, or important information related to tourist attractions or events.
+Notifications: Messaging could be used to send notifications to users about events or activities that they have expressed interest in. For example, if a user has indicated that they are interested in a particular tourist attraction, they could receive a notification when new information or special deals become available.
+2.2.3.4 Content Sharing
+Content sharing is an important feature of the advanced intelligent tourist guide project, as it allows users to share information, photos, and other multimedia content related to tourist attractions or events.
+User-generated content: Users could be allowed to upload photos and videos of tourist attractions or events they have visited. This content could be shared with other users to provide a more comprehensive and diverse view of different destinations.
+Expert-generated content: Content providers or experts in a specific field could be allowed to upload articles, reviews, or other types of content related to tourist attractions or events. This could provide users with more in-depth information and recommendations.
+2.2.3.5 Blogging
+  Blogging is a feature that allows users to create and publish their own blog posts within the advanced intelligent tourist guide web application. This can be a great way for users to share their experiences and recommendations with others in a more detailed and personalized way.
+2.2.3.6 Survey
+A survey is a tool used to gather information and feedback from users of the advanced intelligent tourist guide web application. It can be used to collect data about user preferences, satisfaction levels, and overall experience with the web application.
+2.2.3.7 Search
+The search feature in the advanced intelligent tourist guide web application allows users to search for specific information within the website. It can be used to search for attractions, restaurants, hotels, and other points of interest in a particular location.
+1.User must able to search for the pages in website since there are so many preferences and interests of users.
+It should be present in the form of a search box and a “Search” button.. When a user clicks a search result link, they should be taken to the page corresponding to the search result. In addition, the search page described above might allow for the possibility of searching the World Wide Web using a standard search engine such as Google.
+2. The system must display a search box on every page after a user has logged in. Users should be able to search from any page.
+
+2.2.3.8 FAQ , Routes And Recommendations
+FAQ (Frequently Asked Questions) is a section in the advanced intelligent tourist guide app that provides answers to common questions that users may have about the app, its features, or its functionality.
+The website must display the  FAQ or Routes or Recommend mostly places visited by the tourists based on the user request after a user has logged in. Users should be able to see the requested info .
+
+2.2.3.9 Notifications
+Notifications in the advanced intelligent tourist guide web application are used to inform users about important updates or events related to their account, bookings, or activities in the website. Notifications can be sent in real-time or scheduled to be delivered at a later time. Users should get updates from the website to know more about their trip.
+
+2.3	 User Characteristics
+2.3.1	Users
+Users  are the primary consumers of an tourist portal. They access information posted by administration, book tickets and read blogs and many more
+
+2.3.2	Bloggers
+Blog is an important part in a website development. The information provided by blogs are useful to the users to select their designed places and bloggers are the most important part to provide that.
+
+2.3.3	System Administrators
+System administrator will 
+
+2.4	Constraints
+
+2.4.1	User Interface Constraints
+Using this system is fairly simple and intuitive. A user familiar with basic browser navigation skills should be able to understand all functionality provided by the system.
+2.4.2	Hardware Constraints
+The system should work on most home desktop and laptop computers which support JavaScript and HTML5.
+2.4.3	Software Constraints
+The system will be intended to run on Firefox 4 and above, Google Chrome 10 and above and Internet Explorer 8 and above.
+2.4.4	Data Management Constraints
+System shall be able to interface with other components according to their  specifications.
+
+2.4.5	Operational Constraints
+
+The system is limited by its operating server in terms of the maximum number of users it can support at a given time.
+
+2.4.6	Site Adaptation Constraints
+The component will be adapted to the overarching system at the conclusion of the system creation.
+2.4.7	Design Standards Compliance
+The system shall be implemented in HTML/CSS.
+
+2.5	Assumptions and dependencies
+Most of the training  portals have a lot of redundant features which are rarely used in  an academic sessions. Our new system focuses on the features which are most important to the users of an training institute along with introduction of some new features which other portals lacks.
+2.4.4 Data Management Constraints
+Data management constraints must be taken into consideration during the design and development of the advanced intelligent tourist guide to ensure that the application handles and processes data in a secure, accurate, and reliable manner, while providing appropriate access control and data interoperability features.
+
+2.4.5 Operational Constraints
+Operational constraints must be taken into consideration during the design and development of the advanced intelligent tourist guide to ensure that the application functions effectively and efficiently, while providing a high-quality user experience and complying with applicable regulations and standards.
+
+2.4.6 Site Adaptation Constraints
+Overall, site adapting constraint is a crucial aspect of developing an advanced intelligent tourist guide that provides a consistent and high-quality user experience across all devices and platforms.
+
+2.4.7 Design Standard Constraints
+By adhering to these design standard constraints, the advanced intelligent tourist guide can be designed and developed to a high level of quality and consistency, providing a user-friendly, accessible, secure, and efficient application for tourists.
+2.5 Assumptions and Dependecies
+Users will have access to a reliable internet connection in order to use the application.The availability and reliability of internet and cellular networks in the areas where the application will be used.Users will be willing to share their location data in order to receive personalized recommendations.The availability and reliability of third-party APIs and data sources (such as weather data, travel information, and maps).
+
+3. Specific Requirements
+3.1 External interface
+3.1.1	Web Server
+•	Apache will be used as web server:
+•	The user inputs data via the web server using HTML forms
+•	The web server executes the HTML as a module and HTML script retrieves the post data if available.
+•	The web server receives information back from the HTML script.
+•	The web server displays a HTML page as result to the end-user.
+3.1.2	HTML Application
+The actual program that will perform the operations is written in HTML. All data will be stored in a database.
+
+3.1.3	MySQL Database
+It’s an open source SQL database to store all data which communicates with the application on the server.
+
+3.2 Functional Requirement
+3.2.1 Use Case Scenario
+3.2.1.1 User Login
+
+
+Purpose	To allow registered users to access the system and their personalized content by providing their credentials which are verfied by system.
+User	A user with an existing profile.
+Input	User details and their preferences about their tour.
+Output	Details and routes about the user prefered places.
+
+Invariants	The user should always be able to access the login page and enter their credentials to log in and user should only be able to access and modify their own data and content and not to that other users.
+
+Pre-conditions	The user has a valid account in the system.The user has an internet connection and device to access the system
+Post-conditions	The user is logged in to the system and can access their account information and features
+
+Basic Flow	The system presents the login screen to the user. The user enters their username and password.
+The system verifies the user's credentials.
+
+
+Alternative Flow	If the user forgets their password, they can click on the “forgot password” link and follow the prompts to reset their password.
+If the user does not have a valid account, they can click on the “register” link and follow the prompts to create a new account.
+Business Rules	This allows  user to login into their profile from anywhere 
+
+3.2.1.2 Use Case Scenario 2 – Content Sharing (Upload Files)
+
+
+Purpose	To allow users to share/upload files such as images, videos, and documents related to tourist places and activities.
+User	A legitimate user logged into the system
+Input	The file to be shared.
+Output	After the file has been uploaded, the system generates a download link for the user to share the file with others.
+
+Invariants	The uploaded file should not exceed the maximum file size allowed by the system.
+The user should have the necessary permissions to upload files to the specific group or channel.
+
+Pre-conditions	User is logged into the system.
+User has the appropriate access rights to share/upload files.
+User has selected the option to share/upload files.
+Post-conditions	The file is saved to the server and associated with the appropriate tourist place or activity.
+Users who have subscribed to the tourist place or activity are notified of the new file.
+
+Basic Flow	User selects the option to share/upload files.
+System displays a form for uploading the file, where the user enters the file name, description, and selects the file to upload.
+
+
+
+
+
+
+
+ 
+Process flow diagram
+
+3.2.1.3 Use Case Scenario 3 – Discussion Thread
+A user starts a discussion thread in a particular which, to which the group
+members are able to respond.
+
+
+
+
+
+Purpose
+	The purpose of this use case is to allow users to create and participate in discussion threads on various topics related to tourism.
+User	Any user of Advanced Intelligent Tourist guide
+Input	username and password of the user who is creating or participating in the discussion thread
+Output	The system will display the details of the thread. This will include the original post, the author, and the date it was posted. If there are any replies, they will also be displayed, along with the author and date posted.
+
+Invariants	A discussion thread must have a unique identifier.
+A discussion thread must have a title.
+A discussion thread must have at least one user who initiated the thread.
+
+Pre-conditions	The user must be logged in to the system.
+The user must have access to the internet.
+The user must have selected the discussion thread option.
+Post-conditions	The user is able to view and participate in discussion threads.
+
+Basic Flow	The system displays a list of existing discussion threads.
+The user selects a discussion thread to view or participate in.
+
+
+
+
+3.2.1.4 Use Case Scenario 4 – Content Sharing
+A user wants to download a particular file.
+
+Content Sharing (Download Files)
+
+
+Purpose	to allow users to share content such as images, videos, and other multimedia files with other users
+User	Any user of Advanced Intelligent Tourist guide
+Input	The file that the user wants to upload, which can be in various formats such as images, videos, audio files, or text documents.
+Output	The user has chosen to share the content with others, the system may generate a unique link or code that can be shared with others to access the uploaded content.Sharing the contents.
+
+Invariants	The uploaded content must be in an accepted file format (e.g. .jpeg, .png, .pdf, .mp3, etc.) and not exceed the maximum file size limit.
+The user must have sufficient permissions to upload content to the selected group or community.
+
+Pre-conditions	User must be logged in to the application.
+User must have the file or content they want to share.
+
+Post-conditions	The shared content is made available to the selected users
+The application records the sharing action for audit purposes.
+
+
+Basic Flow	User selects the "Share Content" option from the application menu
+User selects the file or content they want to share
+User confirms the sharing action
+
+3.2.1.5 Use Case Scenario 5 – Search Result
+
+purpose	To allow users to search for information related to their desired tourist destination.
+User	Any User of Advanced Intelligent Tourist Guide.
+Input	Users may choose to apply filters to their search results based on various criteria such as location, date, price range, etc.
+Output	Search results containing the relevant information related to the search query.
+Invariant	The search results must be displayed in a user-friendly format, with relevant information and options clearly visible and easily accessible.
+
+Pre-conditions	The user is registered and logged in to the system.
+The user has entered the search query.
+
+Post-conditions	The user is able to view the search results.
+The system records the search query and user activity for analytical purposes
+
+
+Basic Flow	The system processes the query and retrieves the relevant information from the database.
+The system displays the search results to the user.
+
+
+
+
+
+3.2.1.6 Use Case Scenario 6 – Blog Thread
+ 
+                                                    Figure 11: Process flow diagram: Blogging
+
+Blog Thread
+
+Purpose	The user wants to create a new blog thread, read existing threads, or comment on an existing thread.
+User	
+Input	User credentials,Blog title,Blog content
+and Blog tags
+Output	Blog post confirmation message
+Error message (in case of missing or invalid input data)
+Invariant	The blog title and content fields cannot be empty
+The blog post must contain at least one tag.
+
+Pre-conditions	The user must be logged into the system.
+The user has selected the Blog Thread feature.
+
+Post-conditions	The user can read the new thread or comment they have created.
+Other users can read the new thread or comment.
+The system has updated the list of blog threads and their associated comments.
+
+
+Basic Flow	The system validates the user input and adds the new comment to the thread, then displays the updated thread with the new comment added.
+
+
+3.2.1.7 Use Case Scenario 7 – Notifications
+Involves the system sending notifications to users to keep them updated about their subscribed services and activities.
+Purpose	To alert users about important events or information related to their activities or interests.
+User	The one who receives the notifications.
+Input	Notification content (e.g. message, subject, body)
+Notification trigger (e.g. new message, upcoming event, system update)
+Output	Notification sent confirmation
+Notification delivery status (e.g. delivered, failed, pending)
+Invariant	Recipient must have valid contact information (e.g. email address or phone number)
+Notification trigger must be a valid event or system update.
+
+Pre-conditions	The user must have subscribed to the services they wish to be notified about.
+The system must have the necessary user data and service activity.
+
+Post-conditions	The user is notified about their subscribed services and activities.
+The system updates the notification log.
+
+
+Basic Flow	When there is an update or activity related to the subscribed service, the system sends a notification to the user.
+
+
+
+3.2.1.8 Use Case Scenario 8 – Survey
+The process of creating and conducting surveys to collect feedback from users of the Advanced Intelligent Tourist Guide system.
+Purpose	To collect feedback and opinions from users about their experiences and to gather information about their preferences, interests, and needs related to travel and tourism.
+User	Any user of Advanced Intelligent Tourist Guide
+Input	Survey questions.
+User’s Response to survey questions.
+Output	Survey results.
+Invariant	User must be logged in to take a survey.
+A survey must be available to be taken.
+
+Pre-conditions	User is logged in to the Advanced Intelligent Tourist Guide system
+A survey is available to be taken
+
+Post-conditions	The administrator can view and analyze the survey results.
+The user has completed the survey and can continue using the intelligent tourist guide system.
+
+Basic Flow
+	System presents the survey questions to the user.
+User answers the survey questions.
+User submits the completed survey.
+System records the user's responses.
+
+
+
+ 
+
+Use Case Scenario 9 – FAQ, Time Table and Conference/Seminar Info
+To provide users with frequently asked questions, time table, and conference/seminar information.
+Purpose	
+User	The person who is using the advanced intelligent tourist guide.
+Input	User request for Answers,Schedule Timetable and conference/seminar information.
+Output	FAQ, Time Table,
+Conference/Seminar Info.
+
+Invariant	The system should be able to retrieve and display the correct information about upcoming conferences/seminars , answers,
+time table related to tourism and travel based on the user's location, interests, and preferences.
+
+Pre-conditions	The user has access to the internet.
+The user has logged into the advanced intelligent tourist guide.
+
+Post-conditions	The user has accessed the FAQs, time table, and conference/seminar information in the advanced intelligent tourist guide.
+
+Basic Flow
+	
+The system displays a list of frequently asked questions.
+The user selects a question from the list.
+The system displays the answer to the selected question.
+
+
+
+
+
+3.2	Performance Requirements
+ The system should support at least 150 concurrent users.This statement provides a general sense of reliability when the system is under load. It is important that a substantial number of users be able to access the system at the same time, since an academic portal is important to the courses that employ it. The times when the system will be under the most stress are likely during assignment submissions. Therefore, it must be able to handle at least 150 concurrent users.
+3.1 Logical database requirements
+All data will be saved in the database: user accounts and profiles, discussion data, messages etc. (except files which are stored on the disk.) The database allows concurrent access and will be kept consistent at all times, requiring a good database design.
+3.2	Design Constraints
+1.	The communication between the portal software and the database will be in SQL.
+2.	The portal layout will be produced with HTML/CSS.
+3.	The product will be written in PHP.
+4.	The output must be compatible with W3C XHTML 1.0
+5.	The source code must follow the coding conventions of PHP.
+6.	System administrators must have access to comprehensive documentation.
+
+3.3	Software System Attributes
+The software consists of the following elements:
+1.	The  web server
+2.	The HTML/CSS application
+3.	The MySQL database.
+
+3.3.1	Reliability
+The reliability of the overall program depends on the reliability of the separate components.
+3.3.2	Availability
+The system should be available at all times, meaning the user can access it using a web browser, only restricted by the down time of the server on which the system runs. In case of a of a hardware failure or database corruption, a replacement page will be shown. Also in case of a hardware failure or database
+3.3.3 Security
+1.	The system should require users to authenticate themselves before granting access to any sensitive information or functionality.
+2.	Sensitive data should be encrypted during transmission and storage to prevent unauthorized access.
+3.	The system should undergo regular security audits to identify vulnerabilities and address them promptly.
+4.	The system should have a backup and recovery plan in place to ensure that data can be recovered in case of a security breach or system failure.
+
+3.3.4 Maintainability
+MySQL is used for maintaining the database and the Apache server takes care of the site.
+The system has a robust error handling mechanisms in place to facilitate debugging and maintenance.
+
+3.3.5 Portability
+The application is Linux-based and should be compatible with other systems. Apache, PHP and MySQL programs are practically independent of the OS-system which they communicate with. The end-user part is fully portable and any system using any web browser should be able to use the features of the application. The system should also be tested on multiple platforms to ensure that it works correctly on each one.
+
+
+
+
+
+
+
